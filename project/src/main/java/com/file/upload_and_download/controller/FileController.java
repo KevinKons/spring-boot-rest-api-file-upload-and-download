@@ -37,7 +37,7 @@ public class FileController {
                 .toUriString();
 
         return new ResponseEntity<>(
-                new UploadFileResponse(fileName, fileDownloadUri, file.getContentType(), file.getSize()),
+                new UploadFileResponse(fileName, file.getContentType(), file.getSize()),
                 HttpStatus.OK);
     }
 
