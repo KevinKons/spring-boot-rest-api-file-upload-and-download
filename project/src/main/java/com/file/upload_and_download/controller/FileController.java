@@ -24,7 +24,7 @@ public class FileController {
 
     private static final Logger logger = LoggerFactory.getLogger(FileController.class);
 
-    @Autowired
+    @Autowired //ttttt
     private FileStorageService fileStorageService;
 
     @PostMapping("/uploadFile")
